@@ -4,7 +4,7 @@ A starter project for image labeling  using Node.js, Express, Amazon-Rekognition
 
 ## Manual Installation
 
-If you would still prefer to do the installation manually, follow these steps:
+If you would like to do the installation manually, follow these steps:
 
 Clone the repo:
 
