@@ -11,7 +11,6 @@ Clone the repo:
 ```bash
 git clone --depth 1 https://github.com/adityanarayan2021/VisionMark-AI-Assisted-Annotation-Suite.git
 cd VisionMark-AI-Assisted-Annotation-Suite
-npx rimraf ./.git
 ```
 
 Install the dependencies:
