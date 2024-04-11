@@ -132,6 +132,7 @@ List of available routes:
 `POST /v1/image` - upload image from postman for labling using formdata\
 `GET /v1/image/:status` - find all images with status like in review or approved\
 `GET /v1/image/:imageId` - update image status\
+`GET /v1/image/export/csv` - for exporting data of approved labels
 
 
 **Generating Access Tokens**:
