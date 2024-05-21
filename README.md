@@ -4,14 +4,13 @@ A starter project for image labeling  using Node.js, Express, Amazon-Rekognition
 
 ## Manual Installation
 
-If you would still prefer to do the installation manually, follow these steps:
+If you would like to do the installation manually, follow these steps:
 
 Clone the repo:
 
 ```bash
-git clone --depth 1 https://github.com/adityanarayan2021/VisionMark-AI-Assisted-Annotation-Suite.git
+git clone https://github.com/adityanarayan2021/VisionMark-AI-Assisted-Annotation-Suite.git
 cd VisionMark-AI-Assisted-Annotation-Suite
-npx rimraf ./.git
 ```
 
 Install the dependencies:
@@ -133,6 +132,7 @@ List of available routes:
 `POST /v1/image` - upload image from postman for labling using formdata\
 `GET /v1/image/:status` - find all images with status like in review or approved\
 `GET /v1/image/:imageId` - update image status\
+`GET /v1/image/export/csv` - for exporting data of approved labels
 
 
 **Generating Access Tokens**:
