@@ -11,7 +11,6 @@ const getImageController = require('../../controllers/get.image.controller');
 router
   .route('/')
   .post(auth('user'), upload.single('image'), imageController.imageLabeling)
-  .get(imageController.exportDataInCsv);
 
   router
   .route('/:status')
@@ -62,15 +61,6 @@ module.exports = router;
  *         $ref: '#/components/responses/Unauthorized'
  *       "403":
  *         $ref: '#/components/responses/Forbidden'
-
- *   get:
- *     summary: Export data in CSV format
- *     tags: [Image]
- *     responses:
- *       "200":
- *         description: CSV data exported successfully
- *       "401":
- *         $ref: '#/components/responses/Unauthorized'
 
  * /images/{status}:
  *   get:
